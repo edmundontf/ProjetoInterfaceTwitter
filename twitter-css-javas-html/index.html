@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Twitter</title>
+</head>
+
+<!-- Corpo-->
+
+<body>
+
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+            <!-- Logo -->
+            <figure class="cabecalho__logo">
+                <img src="assets/img/bird-1.png" alt="Log-Twitter">
+                <figcaption hidden> Logo-Twitter </figcaption>
+            </figure>
+            <!-- Menu de Navegação-->
+            <nav class="cabecalho__menuNavegacao">
+                <ul class="cabecalho__menuLista">
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Home.png" alt="Pagina Inicial">
+                        <a href=""> Pagina Inicial</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Hashtag.png" alt="Explorar">
+                        <a href=""> Explorar</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Notification.png" alt="Notificação">
+                        <a href=""> notificações</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Group.png " alt="Mensagens">
+                        <a href=""> Mensagens</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Group (1).png" alt="Itens Salvos">
+                        <a href=""> Itens Salvos</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Group (2).png" alt="Listas">
+                        <a href=""> Listas</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/ProfilePic.png" alt="Perfil">
+                        <a href=""> Perfil</a>
+                    </li>
+
+                    <li class=" cabecalho__menuItem">
+                        <img src="assets/img/Group (3).png" alt="Mais">
+                        <a href=""> Mais</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Conteudo principal -->
+        <main class="conteudoPrincipal">
+            <!-- Titulo -->
+            <h3 class="conteudoPrincipal__title"> Home</h3>
+            <!-- Formulario-->
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="textTweet" id="textTweet" cols="50" rows="5"
+                    placeholder="O que está acontecendo? "></textarea>
+                <button action="submit">Tweetar</button>
+            </form>
+            <!-- FEED de Noticias-->
+
+            <section class="conteudoPrincipal__feed">
+                <!-- Lista de Noticias -->
+                <ul class="conteudoPrincipal__list">
+                    <!-- Noticia-->
+                    <li class="conteudoPrincipal__tweet">
+                        <!-- Imagem do Usuario-->
+                        <img class="tweet__fotoPerfil" src="assets/img/ProfilePic.png" alt="Daniel">
+
+                        <!-- Caixa com informações do usuario -->
+                        <div class="tweet__conteudo">
+                            <h2>Edmundo
+
+                            </h2>
+
+                            <span>@edmundofaria - 14s</span>
+
+                            <p>Este é um teste de conteúdo, para mostrar a funcionalidade do WebApp.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+    <footer> Desenvolvido por: <a href="">Edmundo Faria de Oliveira Neto</a> 2021 &copy;</footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
